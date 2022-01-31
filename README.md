@@ -3,3 +3,5 @@
 Repository of TBA group project for Applied Machine Learning course. </br>
 
 Fatemeh Saberi Khomami
+
+Arash Sadeghi Bablan
