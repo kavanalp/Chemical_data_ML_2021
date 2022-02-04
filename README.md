@@ -12,3 +12,4 @@ Parham Mohammad Panahi
 
 
 Dataset: https://github.com/hhaji/Applied-Machine-Learning/tree/master/Projects/Projects-Fall-2021/Data
+QM9 data after preprocessing as .npy: https://drive.google.com/drive/folders/1KaFlD8dsaVFWoLW7p4-TLDlwFa2PUWKN?usp=sharing
