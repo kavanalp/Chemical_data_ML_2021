@@ -34,7 +34,6 @@ Tox21 label(NR-AR task) after preprocessing as csv: https://drive.google.com/fil
 
 ## Tox21
 #### Prerocessing Steps
-Preprocessing steps:
   1. Renamed features to natural numbers
   2. Dropped Constant Columns
   3. Dropped rows with Null values
@@ -46,7 +45,6 @@ Preprocessing steps:
 
 ## QM9
 #### Prerocessing Steps
-Preprocessing steps:
   1. There was no row with Null value
   2. Dropped Constant Columns
   3. There was no label with Null value
