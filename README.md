@@ -17,3 +17,40 @@ QM9 data after preprocessing as .npy and csv (compressed and otherwise) (there a
 
 Tox21 feutures after preprocessing as csv: https://drive.google.com/file/d/1-2M05lQiuzdUjScfVr4Jtc9YDcRQYCGu/view?usp=sharing </br>
 Tox21 label(NR-AR task) after preprocessing as csv: https://drive.google.com/file/d/1-3KaYohG9Dosxjfung76xSjrvNDN2CXk/view?usp=sharing
+
+
+
+## TOXCAST
+#### Prerocessing Steps
+1. picked one task based on lowest label Null value and highest class balance
+2. Dropped rows with Null values
+3. Dropped Constant Columns
+4. Renamed columns to non-negative integers
+5. Dropped columns highly correlated with other columns (80%)
+
+#### Selected Task
+1. TOX21_TR_LUC_GH3_Antagonist
+
+
+## Tox21
+#### Prerocessing Steps
+Preprocessing steps:
+  1. Renamed features to natural numbers
+  2. Dropped Constant Columns
+  3. Dropped rows with Null values
+  4. Picked Task based on lowest label Null values after dropped Null rows
+ 
+#### Selected Task
+1. NR-AR
+
+
+## QM9
+#### Prerocessing Steps
+Preprocessing steps:
+  1. There was no row with Null value
+  2. Dropped Constant Columns
+  3. There was no label with Null value
+ 
+#### Selected Task
+1. GAP (for single task models)
+2. all tasks (for multitask models)
