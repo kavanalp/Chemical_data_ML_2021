@@ -4,6 +4,9 @@
   This method works best when facing very large dimensional data, therefore it is not useful in case of either of our datasets!
 
 ### PCA
-  extracted pca projections for 3 variability levels: 50%, 90%, 99% for qm9 and tox21
-  link to projected features: https://drive.google.com/drive/folders/1gmLC182bXv2NGaFEBPQhwYRUhRNpZJGZ?usp=sharing
+* Note: in practice we need to create PCA transformer only on training set and then transform all the data with it!
+* PCA viability for (50, 90, 99)% of variability
+  * QM9: (7, 37, 83) out of 163 components
+  * TOX21: (7, 48, 119) out of 190 components
+
 
