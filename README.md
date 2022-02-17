@@ -36,8 +36,10 @@ Tox21 label(NR-AR task) after preprocessing as csv: https://drive.google.com/fil
 #### Prerocessing Steps
   1. Renamed features to natural numbers
   2. Dropped Constant Columns
-  3. Dropped rows with Null values
-  4. Picked Task based on lowest label Null values after dropped Null rows
+  3. Picked the task with the lowest NA rate (Task : NA-NR)
+  4. Filled some of the NA values of the chosen task by a similar Task named "NR-AR-LBD" (Also Correlation Matrix showed that this task was the most relevant to NA-NR)
+  5. 
+  6. Dropped rest of the NA rows because it was a negligible portion of data 
  
 #### Selected Task
 1. NR-AR
